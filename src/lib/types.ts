@@ -2,6 +2,7 @@ export interface Project {
   slug: string;
   title: string;
   category: string;
+  tagline: string;
   description: string;
   techStack: string[];
   imageUrl: string;

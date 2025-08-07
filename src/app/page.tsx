@@ -68,21 +68,23 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* 4. Featured Projects Section */}
-      <section className="py-24">
+      {/* 4. Flagship Projects Section */}
+      <section id="projects" className="py-24">
         <div className="text-center mb-16">
-          <p className="font-semibold accent-gold">Featured Work</p>
-          <h2 className="mt-2 text-4xl font-bold text-white">Latest Projects</h2>
+          <p className="font-semibold accent-gold">Elite Performance</p>
+          <h2 className="mt-2 text-4xl font-bold text-white font-display tracking-wide">FLAGSHIP PROJECTS</h2>
           <p className="mt-4 text-neutral-200 max-w-2xl mx-auto">
-            A selection of recent work showcasing full-stack development and creative problem solving.
+            Championship-caliber solutions built with uncompromising precision and technical mastery.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {projects.slice(0, 2).map((project) => (
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>
-        <div className="text-center mt-12">
+        
+        <div className="text-center mt-16">
           <Link href="/projects" className="rounded-md bg-neutral-800 px-6 py-3 text-sm font-semibold text-white hover:bg-neutral-700 ring-1 ring-white/10">
             View All Projects
           </Link>

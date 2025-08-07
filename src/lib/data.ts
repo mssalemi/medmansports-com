@@ -2,20 +2,31 @@ import { Project, LogEntry } from './types';
 
 const projects: Project[] = [
   {
-    slug: 'shopify-performance-optimizer',
-    title: 'Shopify Performance Optimizer',
-    category: 'E-commerce Tool',
-    description: 'A custom-built tool to analyze Shopify themes and suggest performance improvements, improving load times by up to 40%.',
-    techStack: ['Next.js', 'Node.js', 'GraphQL', 'TypeScript'],
-    imageUrl: '/shopify-optimizer.svg',
+    slug: 'precision-cut',
+    title: 'PRECISION CUT',
+    category: 'AI-Powered Tool',
+    tagline: 'Intelligent video splitting that transforms raw content into championship-caliber content arsenals.',
+    description: 'Built on Rust\'s unmatched performance, this tool uses Whisper AI to intelligently identify breakpoints in long-form content for seamless video splitting. FFMpeg integration ensures broadcast-quality output with lightning-fast processing speeds.',
+    techStack: ['Rust', 'Whisper AI', 'FFMpeg', 'Machine Learning'],
+    imageUrl: '/placeholder-project.svg',
   },
   {
-    slug: 'athlete-content-scheduler',
-    title: 'Athlete Content Scheduler',
-    category: 'Creator Tool',
-    description: 'A web app for athletes and creators to schedule their social media content, with a focus on training logs and progress updates.',
-    techStack: ['React', 'Firebase', 'Tailwind CSS'],
-    imageUrl: '/content-scheduler.svg',
+    slug: 'arena-architect',
+    title: 'ARENA ARCHITECT',
+    category: 'Fitness AI',
+    tagline: 'AI-powered training that adapts to any arena, delivering elite performance regardless of equipment limitations.',
+    description: 'This intelligent system analyzes available equipment—from full gyms to single kettlebells—and generates hyper-personalized workout protocols. AI-powered training that maximizes results within any constraints, ensuring peak performance regardless of your arena.',
+    techStack: ['Python', 'TensorFlow', 'React', 'Node.js'],
+    imageUrl: '/placeholder-project.svg',
+  },
+  {
+    slug: 'seamless-string',
+    title: 'SEAMLESS STRING',
+    category: 'E-commerce Solution',
+    tagline: 'Custom stringing services integrated flawlessly into e-commerce, turning product pages into complete performance solutions.',
+    description: 'Built with Shopify\'s advanced App Blocks and Functions, this solution embeds custom stringing services directly into product pages with zero friction. Transforms simple equipment purchases into complete performance configurations.',
+    techStack: ['Shopify Functions', 'React', 'TypeScript', 'GraphQL'],
+    imageUrl: '/placeholder-project.svg',
   },
 ];
 

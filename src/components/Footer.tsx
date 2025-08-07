@@ -1,39 +1,39 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-neutral-950 border-t border-neutral-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">MedMansports</h3>
-            <p className="text-gray-400">
-              Content creator who codes. Sharing my journey in tech and athletics.
+            <h3 className="text-lg font-light text-white mb-4 tracking-wider">MEDMANSPORTS</h3>
+            <p className="text-neutral-400">
+              Where software engineering meets athletic ambition. Building digital solutions while competing on the court.
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Connect</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
             <div className="space-y-2">
               <a 
                 href="#" 
-                className="block text-gray-400 hover:text-white transition-colors"
+                className="block text-neutral-400 hover:text-blue-500 transition-colors"
               >
                 Twitter
               </a>
               <a 
                 href="#" 
-                className="block text-gray-400 hover:text-white transition-colors"
+                className="block text-neutral-400 hover:text-blue-500 transition-colors"
               >
                 LinkedIn
               </a>
               <a 
                 href="#" 
-                className="block text-gray-400 hover:text-white transition-colors"
+                className="block text-neutral-400 hover:text-blue-500 transition-colors"
               >
                 GitHub
               </a>
               <a 
                 href="#" 
-                className="block text-gray-400 hover:text-white transition-colors"
+                className="block text-neutral-400 hover:text-blue-500 transition-colors"
               >
                 YouTube
               </a>
@@ -41,20 +41,23 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Shop</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Store</h3>
             <a 
               href="https://medmansports.ca"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="inline-flex items-center text-neutral-400 hover:text-blue-500 transition-colors font-medium"
             >
-              Visit MedMansports Store →
+              Visit MEDMANSPORTS Store
+              <span className="ml-1">→</span>
             </a>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} MedMansports. All rights reserved.</p>
+        <div className="border-t border-neutral-800 mt-8 pt-8 text-center">
+          <p className="text-neutral-500">
+            &copy; {new Date().getFullYear()} MEDMANSPORTS. Built with ambition.
+          </p>
         </div>
       </div>
     </footer>

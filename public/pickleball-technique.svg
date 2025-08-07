@@ -1,0 +1,66 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="pickleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B5563;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="pickleGlow" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:rgba(59,130,246,0.3);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(59,130,246,0);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#pickleGrad)"/>
+  <rect width="100%" height="100%" fill="url(#pickleGlow)"/>
+  
+  <!-- Pickleball court -->
+  <g stroke="rgba(255,255,255,0.5)" fill="none" stroke-width="2">
+    <!-- Court outline -->
+    <rect x="120" y="100" width="360" height="180" rx="6"/>
+    <!-- Center line -->
+    <line x1="300" y1="100" x2="300" y2="280"/>
+    <!-- Service areas -->
+    <line x1="120" y1="140" x2="480" y2="140"/>
+    <line x1="120" y1="240" x2="480" y2="240"/>
+    <!-- Non-volley zone (kitchen) -->
+    <line x1="120" y1="170" x2="480" y2="170"/>
+    <line x1="120" y1="210" x2="480" y2="210"/>
+    <!-- Net -->
+    <line x1="300" y1="90" x2="300" y2="290" stroke-width="3" opacity="0.8"/>
+  </g>
+  
+  <!-- Pickleball paddle -->
+  <g stroke="rgba(255,255,255,0.8)" fill="rgba(255,255,255,0.2)" stroke-width="2">
+    <ellipse cx="200" cy="160" rx="25" ry="40" transform="rotate(-15 200 160)"/>
+    <rect x="195" y="200" width="10" height="30" rx="5" transform="rotate(-15 200 215)"/>
+  </g>
+  
+  <!-- Pickleball -->
+  <g>
+    <circle cx="350" cy="200" r="10" fill="rgba(255,255,255,0.9)"/>
+    <!-- Holes in the ball -->
+    <circle cx="345" cy="195" r="2" fill="rgba(59,130,246,0.6)"/>
+    <circle cx="355" cy="195" r="2" fill="rgba(59,130,246,0.6)"/>
+    <circle cx="350" cy="205" r="2" fill="rgba(59,130,246,0.6)"/>
+    <circle cx="345" cy="205" r="2" fill="rgba(59,130,246,0.6)"/>
+    <circle cx="355" cy="205" r="2" fill="rgba(59,130,246,0.6)"/>
+  </g>
+  
+  <!-- Drop shot trajectory -->
+  <g stroke="rgba(59,130,246,0.8)" fill="none" stroke-width="2" stroke-dasharray="3,3">
+    <path d="M 220 170 Q 280 130 340 190"/>
+    <circle cx="280" cy="130" r="3" fill="rgba(59,130,246,0.8)"/>
+  </g>
+  
+  <!-- Skill improvement arrow -->
+  <g stroke="rgba(59,130,246,0.8)" fill="rgba(59,130,246,0.8)" stroke-width="2">
+    <line x1="420" y1="160" x2="460" y2="120"/>
+    <polygon points="460,120 455,125 460,130" />
+  </g>
+  
+  <!-- Title text -->
+  <text x="50%" y="92%" font-family="monospace" font-size="16" fill="white" text-anchor="middle" opacity="0.9">
+    🏓 Pickleball Technique Breakthrough
+  </text>
+</svg>

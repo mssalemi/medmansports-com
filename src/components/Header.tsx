@@ -14,12 +14,12 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow-sm border-b">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="bg-neutral-900/95 backdrop-blur-sm border-b border-neutral-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900">
-              MedMansports
+            <Link href="/" className="text-xl font-light text-white tracking-wider">
+              MEDMANSPORTS
             </Link>
           </div>
 
@@ -28,8 +28,8 @@ export default function Header() {
               href="/" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/') 
-                  ? 'text-gray-900 font-bold' 
-                  : 'text-gray-700 hover:text-gray-900 font-medium'
+                  ? 'text-blue-500 font-bold' 
+                  : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
               Home
@@ -38,8 +38,8 @@ export default function Header() {
               href="/projects" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/projects') 
-                  ? 'text-gray-900 font-bold' 
-                  : 'text-gray-700 hover:text-gray-900 font-medium'
+                  ? 'text-blue-500 font-bold' 
+                  : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
               Projects
@@ -48,8 +48,8 @@ export default function Header() {
               href="/log" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/log') 
-                  ? 'text-gray-900 font-bold' 
-                  : 'text-gray-700 hover:text-gray-900 font-medium'
+                  ? 'text-blue-500 font-bold' 
+                  : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
               Log
@@ -58,8 +58,8 @@ export default function Header() {
               href="/collaborate" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/collaborate') 
-                  ? 'text-gray-900 font-bold' 
-                  : 'text-gray-700 hover:text-gray-900 font-medium'
+                  ? 'text-blue-500 font-bold' 
+                  : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
               Collaborate
@@ -68,8 +68,8 @@ export default function Header() {
               href="/about" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/about') 
-                  ? 'text-gray-900 font-bold' 
-                  : 'text-gray-700 hover:text-gray-900 font-medium'
+                  ? 'text-blue-500 font-bold' 
+                  : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
               About
@@ -78,7 +78,7 @@ export default function Header() {
               href="https://medmansports.ca" 
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-4 py-2 text-sm font-medium rounded-md hover:bg-blue-700"
+              className="bg-blue-600 text-white px-4 py-2 text-sm font-semibold rounded-md hover:bg-blue-500 transition-colors"
             >
               Shop
             </a>
@@ -87,7 +87,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-gray-900 p-2"
+              className="text-neutral-300 hover:text-white p-2"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -109,13 +109,13 @@ export default function Header() {
 
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-neutral-800">
               <Link 
                 href="/" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/') 
-                    ? 'text-gray-900 font-bold' 
-                    : 'text-gray-700 hover:text-gray-900 font-medium'
+                    ? 'text-blue-500 font-bold' 
+                    : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -125,8 +125,8 @@ export default function Header() {
                 href="/projects" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/projects') 
-                    ? 'text-gray-900 font-bold' 
-                    : 'text-gray-700 hover:text-gray-900 font-medium'
+                    ? 'text-blue-500 font-bold' 
+                    : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -136,8 +136,8 @@ export default function Header() {
                 href="/log" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/log') 
-                    ? 'text-gray-900 font-bold' 
-                    : 'text-gray-700 hover:text-gray-900 font-medium'
+                    ? 'text-blue-500 font-bold' 
+                    : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -147,8 +147,8 @@ export default function Header() {
                 href="/collaborate" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/collaborate') 
-                    ? 'text-gray-900 font-bold' 
-                    : 'text-gray-700 hover:text-gray-900 font-medium'
+                    ? 'text-blue-500 font-bold' 
+                    : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -158,8 +158,8 @@ export default function Header() {
                 href="/about" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/about') 
-                    ? 'text-gray-900 font-bold' 
-                    : 'text-gray-700 hover:text-gray-900 font-medium'
+                    ? 'text-blue-500 font-bold' 
+                    : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -169,7 +169,7 @@ export default function Header() {
                 href="https://medmansports.ca" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block bg-blue-600 text-white px-3 py-2 text-base font-medium rounded-md hover:bg-blue-700 mx-3 mt-2"
+                className="block bg-blue-600 text-white px-3 py-2 text-base font-semibold rounded-md hover:bg-blue-500 mx-3 mt-2 transition-colors"
               >
                 Shop
               </a>

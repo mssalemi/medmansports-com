@@ -10,13 +10,13 @@ export default async function LogPage() {
   const logEntries = await getLogEntries();
 
   return (
-    <div className="bg-gray-50 py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-white mb-4">
             My Log
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-neutral-200 max-w-2xl mx-auto">
             Updates from my athletic journey, training insights, competition experiences, 
             and personal reflections on the intersection of sports and technology.
           </p>

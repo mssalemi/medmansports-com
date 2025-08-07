@@ -1,6 +1,29 @@
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#3B82F6"/>
-  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">
-    Project Placeholder
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="projectGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#projectGrad)"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- Code-like elements -->
+  <g stroke="rgba(255,255,255,0.3)" fill="none" stroke-width="2">
+    <rect x="50" y="50" width="120" height="80" rx="8"/>
+    <rect x="200" y="80" width="150" height="60" rx="8"/>
+    <rect x="380" y="40" width="140" height="100" rx="8"/>
+    <line x1="170" y1="90" x2="200" y2="110"/>
+    <line x1="350" y1="110" x2="380" y2="90"/>
+  </g>
+  
+  <!-- Center text -->
+  <text x="50%" y="60%" font-family="monospace" font-size="18" fill="white" text-anchor="middle" dominant-baseline="middle" opacity="0.9">
+    &lt;/&gt; Engineering Project
   </text>
 </svg>

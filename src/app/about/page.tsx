@@ -5,22 +5,22 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="bg-gray-50 py-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-neutral-800/50 rounded-lg ring-1 ring-white/10 overflow-hidden">
           <div className="p-8 md:p-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-8">
+            <h1 className="text-4xl font-bold text-white mb-8">
               About Me
             </h1>
             
-            <div className="prose prose-lg max-w-none text-gray-600 space-y-6">
+            <div className="prose prose-lg max-w-none text-neutral-200 space-y-6">
               <p>
                 Welcome to my corner of the internet! I'm a passionate developer and content creator 
                 who believes in the power of technology to solve real-world problems and enhance 
                 human experiences.
               </p>
               
-              <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
                 My Journey
               </h2>
               <p>
@@ -30,7 +30,7 @@ export default function AboutPage() {
                 tackling challenging problems and learning new technologies.
               </p>
               
-              <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
                 Beyond Code
               </h2>
               <p>
@@ -40,7 +40,7 @@ export default function AboutPage() {
                 compete in local tournaments and love sharing my athletic journey through content creation.
               </p>
               
-              <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
                 What I Do
               </h2>
               <p>
@@ -51,7 +51,7 @@ export default function AboutPage() {
                 and athletics.
               </p>
               
-              <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
                 Let's Connect
               </h2>
               <p>

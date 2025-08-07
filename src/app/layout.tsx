@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Anton, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const poppins = Poppins({
+const anton = Anton({
   subsets: ["latin"],
-  weight: ['300', '400', '600', '700'],
-  variable: '--font-poppins',
+  weight: '400',
+  variable: '--font-anton',
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
@@ -23,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} font-sans antialiased`}
+        className={`${anton.variable} ${inter.variable} font-sans antialiased`}
       >
         <Header />
         <main className="min-h-screen">

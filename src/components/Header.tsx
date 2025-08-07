@@ -28,7 +28,7 @@ export default function Header() {
               href="/" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/') 
-                  ? 'text-blue-500 font-bold' 
+                  ? 'accent-gold font-bold' 
                   : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
@@ -38,7 +38,7 @@ export default function Header() {
               href="/projects" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/projects') 
-                  ? 'text-blue-500 font-bold' 
+                  ? 'accent-gold font-bold' 
                   : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
@@ -48,7 +48,7 @@ export default function Header() {
               href="/log" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/log') 
-                  ? 'text-blue-500 font-bold' 
+                  ? 'accent-gold font-bold' 
                   : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
@@ -58,7 +58,7 @@ export default function Header() {
               href="/collaborate" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/collaborate') 
-                  ? 'text-blue-500 font-bold' 
+                  ? 'accent-gold font-bold' 
                   : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
@@ -68,7 +68,7 @@ export default function Header() {
               href="/about" 
               className={`px-3 py-2 text-sm transition-colors ${
                 isActive('/about') 
-                  ? 'text-blue-500 font-bold' 
+                  ? 'accent-gold font-bold' 
                   : 'text-neutral-300 hover:text-white font-medium'
               }`}
             >
@@ -78,7 +78,7 @@ export default function Header() {
               href="https://medmansports.ca" 
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-4 py-2 text-sm font-semibold rounded-md hover:bg-blue-500 transition-colors"
+              className="bg-accent-gold text-black px-4 py-2 text-sm font-semibold rounded-md hover:bg-gold-light transition-all duration-300 transform hover:scale-105"
             >
               Shop
             </a>
@@ -114,7 +114,7 @@ export default function Header() {
                 href="/" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/') 
-                    ? 'text-blue-500 font-bold' 
+                    ? 'accent-gold font-bold' 
                     : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
@@ -125,7 +125,7 @@ export default function Header() {
                 href="/projects" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/projects') 
-                    ? 'text-blue-500 font-bold' 
+                    ? 'accent-gold font-bold' 
                     : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
@@ -136,7 +136,7 @@ export default function Header() {
                 href="/log" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/log') 
-                    ? 'text-blue-500 font-bold' 
+                    ? 'accent-gold font-bold' 
                     : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
@@ -147,7 +147,7 @@ export default function Header() {
                 href="/collaborate" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/collaborate') 
-                    ? 'text-blue-500 font-bold' 
+                    ? 'accent-gold font-bold' 
                     : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
@@ -158,7 +158,7 @@ export default function Header() {
                 href="/about" 
                 className={`block px-3 py-2 text-base transition-colors ${
                   isActive('/about') 
-                    ? 'text-blue-500 font-bold' 
+                    ? 'accent-gold font-bold' 
                     : 'text-neutral-300 hover:text-white font-medium'
                 }`}
                 onClick={() => setIsMenuOpen(false)}

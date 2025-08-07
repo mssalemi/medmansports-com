@@ -13,51 +13,53 @@ export default function AboutPage() {
               About Me
             </h1>
             
-            <div className="prose prose-lg max-w-none text-neutral-200 space-y-6">
-              <p>
-                Welcome to my corner of the internet! I'm a passionate developer and content creator 
-                who believes in the power of technology to solve real-world problems and enhance 
-                human experiences.
+            <div className="prose prose-lg max-w-none text-neutral-200 space-y-8">
+              <p className="text-xl leading-relaxed">
+                Excellence isn't achieved overnight. It's forged through relentless dedication, 
+                precision under pressure, and the unwavering commitment to push beyond what others 
+                consider possible.
               </p>
               
-              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
-                My Journey
+              <h2 className="text-3xl text-white mt-12 mb-6 accent-gold">
+                THE PURSUIT OF MASTERY
               </h2>
               <p>
-                My journey began with a curiosity for how things work under the hood. This led me 
-                into the world of programming, where I discovered my love for building applications 
-                that make people's lives easier. From web development to mobile apps, I enjoy 
-                tackling challenging problems and learning new technologies.
+                Every line of code I write carries the same intensity I bring to competition. 
+                In development, there are no shortcuts to greatness—only disciplined execution, 
+                strategic thinking, and the hunger to dominate every technical challenge. 
+                From architecting scalable systems to optimizing performance at the millisecond level, 
+                I operate where precision meets ambition.
               </p>
               
-              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
-                Beyond Code
+              <h2 className="text-3xl text-white mt-12 mb-6 accent-gold">
+                CHAMPION MENTALITY
               </h2>
               <p>
-                When I'm not coding, you'll find me on the tennis court or pickleball courts. 
-                Sports have taught me discipline, perseverance, and the importance of continuous 
-                improvement - qualities that directly translate to my work as a developer. I regularly 
-                compete in local tournaments and love sharing my athletic journey through content creation.
+                The court teaches what the classroom cannot: how to perform under pressure, 
+                how to analyze opponents in real-time, and how to execute flawlessly when it matters most. 
+                These championship principles fuel every project I touch. Whether it's delivering 
+                mission-critical applications or building systems that handle millions of users, 
+                I bring the mindset of someone who refuses to accept anything less than victory.
               </p>
               
-              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
-                What I Do
+              <h2 className="text-3xl text-white mt-12 mb-6 accent-gold">
+                BUILDING LEGACY
               </h2>
               <p>
-                I specialize in full-stack web development, with expertise in modern frameworks 
-                like React, Next.js, and Node.js. I'm also passionate about e-commerce solutions, 
-                performance optimization, and creating intuitive user experiences. Through my content, 
-                I share insights about development, entrepreneurship, and the intersection of technology 
-                and athletics.
+                I don't just build applications—I architect digital empires. Every technology stack 
+                I master, every performance benchmark I shatter, every impossible deadline I conquer 
+                adds to a legacy of technical excellence that speaks louder than any resume ever could. 
+                This is about more than delivering code; it's about creating solutions that define industries.
               </p>
               
-              <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
-                Let's Connect
+              <h2 className="text-3xl text-white mt-12 mb-6 accent-gold">
+                THE ELITE STANDARD
               </h2>
               <p>
-                I'm always excited to connect with fellow developers, athletes, and entrepreneurs. 
-                Whether you're looking to collaborate on a project, need technical consultation, 
-                or just want to chat about the latest tech trends or sports, don't hesitate to reach out!
+                Champions don't connect—they elevate. If you're ready to work with someone who brings 
+                the same relentless standards to development that elite athletes bring to their sport, 
+                then we speak the same language. This isn't about collaboration; it's about domination 
+                through technical superiority.
               </p>
             </div>
           </div>

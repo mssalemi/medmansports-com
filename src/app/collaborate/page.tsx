@@ -45,30 +45,30 @@ export default function CollaboratePage() {
           </div>
         </div>
 
-        <div className="bg-neutral-800/50 rounded-lg ring-1 ring-white/10 p-8">
-          <h2 className="text-2xl font-semibold text-white mb-6 text-center">
-            Ready to Start a Project?
+        <div className="bg-neutral-800/50 rounded-lg ring-1 ring-white/10 p-12">
+          <h2 className="text-4xl font-bold text-white mb-8 text-center">
+            READY TO DOMINATE YOUR MARKET?
           </h2>
           
-          <div className="space-y-6">
-            <p className="text-neutral-200 text-center">
-              I'd love to hear about your project and explore how we can work together. 
-              Whether you need technical expertise, content creation, or both, let's discuss 
-              your goals and create something amazing.
+          <div className="space-y-8">
+            <p className="text-xl text-neutral-200 text-center max-w-3xl mx-auto leading-relaxed">
+              Excellence recognizes excellence. If you demand the same relentless pursuit of perfection 
+              in your digital presence that champions bring to their craft, then you've found your partner. 
+              This isn't for everyone—only those who refuse to settle for anything less than market domination.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a
                 href="mailto:hello@medmansports.com"
-                className="bg-blue-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-500 transition-colors"
+                className="bg-accent-gold text-black px-12 py-4 rounded-md font-bold text-lg hover:bg-gold-light transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                Send Me an Email
+                CLAIM YOUR ADVANTAGE
               </a>
               <a
                 href="#"
-                className="text-blue-500 hover:text-blue-400 font-medium"
+                className="text-gold hover-gold font-semibold text-lg"
               >
-                Connect on LinkedIn →
+                View Championship Portfolio →
               </a>
             </div>
           </div>

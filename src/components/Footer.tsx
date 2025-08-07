@@ -14,28 +14,36 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
             <div className="space-y-2">
               <a 
-                href="#" 
-                className="block text-neutral-400 hover:text-blue-500 transition-colors"
+                href="https://www.youtube.com/@medmansports"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-neutral-400 hover-gold transition-colors font-medium"
               >
-                Twitter
+                YouTube
               </a>
               <a 
-                href="#" 
-                className="block text-neutral-400 hover:text-blue-500 transition-colors"
+                href="https://www.instagram.com/medmansports"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-neutral-400 hover-gold transition-colors font-medium"
+              >
+                Instagram
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/mehdissalemi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-neutral-400 hover-gold transition-colors font-medium"
               >
                 LinkedIn
               </a>
               <a 
-                href="#" 
-                className="block text-neutral-400 hover:text-blue-500 transition-colors"
+                href="https://github.com/mssalemi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-neutral-400 hover-gold transition-colors font-medium"
               >
                 GitHub
-              </a>
-              <a 
-                href="#" 
-                className="block text-neutral-400 hover:text-blue-500 transition-colors"
-              >
-                YouTube
               </a>
             </div>
           </div>
@@ -46,7 +54,7 @@ export default function Footer() {
               href="https://medmansports.ca"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-neutral-400 hover:text-blue-500 transition-colors font-medium"
+              className="inline-flex items-center text-neutral-400 hover-gold transition-colors font-medium"
             >
               Visit MEDMANSPORTS Store
               <span className="ml-1">→</span>

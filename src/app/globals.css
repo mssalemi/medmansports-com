@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --font-family-sans: var(--font-poppins), system-ui, sans-serif;
+  --font-family-sans: var(--font-inter), system-ui, sans-serif;
+  --font-family-display: var(--font-anton), system-ui, sans-serif;
   
-  /* Custom color definitions for better compatibility */
+  /* CR7 Premium Color System */
   --color-neutral-900: rgb(23 23 23);
   --color-neutral-800: rgb(38 38 38);
   --color-neutral-700: rgb(64 64 64);
@@ -12,28 +13,55 @@
   --color-neutral-300: rgb(212 212 212);
   --color-neutral-200: rgb(229 229 229);
   --color-white: rgb(255 255 255);
-  --color-blue-600: rgb(30 58 138);
-  --color-blue-500: rgb(37 99 235);
-  --color-blue-400: rgb(59 130 246);
-  --color-blue-700: rgb(26 54 126);
+  
+  /* Elite Gold Accent System */
+  --color-gold: rgb(212 175 55);
+  --color-gold-light: rgb(218 185 76);
+  --color-gold-dark: rgb(184 151 42);
 }
 
 * {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html, body {
   background-color: var(--color-neutral-900);
-  color: rgb(255 255 255); /* Pure white for crisp readability */
-  font-family: var(--font-poppins), system-ui, sans-serif;
+  color: var(--color-white);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-optical-sizing: auto;
 }
 
-/* Ensure all text inherits the neutral color */
-h1, h2, h3, h4, h5, h6, p, div {
-  color: inherit;
+/* Elite Typography System */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-anton), system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  line-height: 1.1;
 }
 
-/* Override any default link styles */
-a {
+/* Body Text Excellence */
+p, a, li, button, span {
+  font-family: var(--font-inter), system-ui, sans-serif;
   color: inherit;
+  line-height: 1.6;
+}
+
+/* Gold Accent Applications */
+.accent-gold {
+  color: var(--color-gold);
+}
+
+.bg-accent-gold {
+  background-color: var(--color-gold);
+}
+
+.border-accent-gold {
+  border-color: var(--color-gold);
+}
+
+/* Premium Hover States */
+.hover-gold:hover {
+  color: var(--color-gold-light);
+  transform: translateY(-1px);
 }
